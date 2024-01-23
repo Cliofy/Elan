@@ -30,6 +30,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "components/badge.js", "components/button.js"  ],
   "exclude": ["node_modules"]
 }
