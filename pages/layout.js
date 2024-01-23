@@ -12,7 +12,7 @@ const vietnam_pro = Be_Vietnam_Pro(
 );
 export default function Layout({ children }) {
     return (
-        <main className={cn('flex min-h-screen flex-col items-center justify-between p-24 font-sans antialiased', vietnam_pro.variable, vietnam_pro.variable)}>
+        <main className={cn('flex min-h-screen flex-col items-center justify-between font-sans antialiased', vietnam_pro.variable, vietnam_pro.variable)}>
             {children}
         </main>
     )

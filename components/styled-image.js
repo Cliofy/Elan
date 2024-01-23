@@ -35,7 +35,7 @@ const StyledImage = ({ height, width, size,round = false, alt, src, classNames, 
       height={width || 100}
       placeholder="blur"
       blurDataURL={rgbDataURL(0, 105, 255)}
-      src={src || `/${process.env.APP_LOGO_PATH}`}
+      src={src || `/logo.png`}
       alt={alt || 'Logo'}
       className={cn(`object-cover ${imageSize} ${round? 'rounded-full': 'rounded-none'}`, classNames)}
       decoding='async'

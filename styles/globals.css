@@ -19,8 +19,8 @@
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
 
-    --primary: 215.29, 100%, 50%;
-    --primary-hover: 230.41, 82.91%, 45.88%;
+    --primary: 37, 46%, 57%, 1;
+    --primary-hover: 37, 87%, 45%, 1;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 240 4.8% 95.9%;
@@ -134,4 +134,8 @@
   animation-duration: 400ms;
   animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform, opacity;
+}
+.hero {
+  /* background-image: url("/banner.png");
+  background-size: cover; */
 }
